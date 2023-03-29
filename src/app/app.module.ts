@@ -8,14 +8,21 @@ import { HomeComponent } from "./pages/home/home.component";
 import { AuthLayoutComponent } from "./shared/auth-layout/auth-layout.component";
 import { BaseLayoutComponent } from "./shared/base-layout/base-layout.component";
 import { FlexLayoutModule } from "@angular/flex-layout";
-import { MatToolbarModule } from "@angular/material/toolbar";
-import { MatButtonModule } from "@angular/material/button";
-import { MatIconModule } from "@angular/material/icon";
+
+import { LoginComponent } from "./pages/login/login.component";
 import { HttpClient, HttpClientModule } from "@angular/common/http";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { CookieService } from "ngx-cookie-service";
 
+// Angular material imports
 import { MatMenuModule } from "@angular/material/menu";
+import { MatDividerModule } from "@angular/material/divider";
+import { MatCardModule } from "@angular/material/card";
+import { MatToolbarModule } from "@angular/material/toolbar";
+import { MatButtonModule } from "@angular/material/button";
+import { MatIconModule } from "@angular/material/icon";
+import { MatInputModule } from "@angular/material/input";
+import { MatFormFieldModule } from "@angular/material/form-field";
 
 // primeNG imports
 import { MessageModule } from "primeng/message";
@@ -27,6 +34,7 @@ import { MessagesModule } from "primeng/messages";
 		HomeComponent,
 		AuthLayoutComponent,
 		BaseLayoutComponent,
+		LoginComponent,
 	],
 	imports: [
 		BrowserModule,
@@ -36,6 +44,16 @@ import { MessagesModule } from "primeng/messages";
 		MatToolbarModule,
 		MatButtonModule,
 		MatIconModule,
+		MatMenuModule,
+		HttpClientModule,
+		FormsModule,
+		ReactiveFormsModule,
+		MatCardModule,
+		MatInputModule,
+		MatFormFieldModule,
+		MatDividerModule,
+		MessageModule,
+		MessagesModule,
 	],
 	providers: [],
 	bootstrap: [AppComponent],

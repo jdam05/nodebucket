@@ -42,7 +42,7 @@ router.get("/:id", (req, res, next) => {
 	} else {
 		Employee.findOne({ empId: req.params.id }, function (err, emp) {
 			if (err) {
-				console.error("MongoDB error:", err);
+				console.error("MongoDB error:", err); 
 				next(err);
 			} else {
 				console.log("emp:", emp);
