@@ -4,6 +4,7 @@ import { BaseLayoutComponent } from "./shared/base-layout/base-layout.component"
 import { HomeComponent } from "./pages/home/home.component";
 import { AuthLayoutComponent } from "./shared/auth-layout/auth-layout.component";
 import { LoginComponent } from "./pages/login/login.component";
+import { AuthGuard } from "./auth.guard";
 
 const routes: Routes = [
 	{
@@ -13,6 +14,7 @@ const routes: Routes = [
 			{
 				path: "",
 				component: HomeComponent,
+				canActivate: [AuthGuard],
 			},
 		],
 	},

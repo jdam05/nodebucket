@@ -1,0 +1,42 @@
+.login-container {
+	width: 40%;
+	margin: 10% auto;
+}
+
+.login-title {
+	text-align: center;
+	font-size: 40px;
+	font-weight: lighter;
+	padding: 10px;
+}
+
+.login-subtitle {
+	text-align: center;
+	font-weight: lighter;
+	padding: 5px;
+	color: #d6a800;
+}
+
+.mat-card {
+	padding: 0;
+}
+
+.mat-card-header {
+	background-color: #4f3674;
+	padding-left: 6%;
+	padding-top: 15px;
+	color: white;
+}
+
+.mat-card-content {
+	padding: 20px;
+}
+
+.mat-card-action {
+	padding: 25px;
+}
+
+.btn-lg {
+	height: 36px;
+	width: 90rem;
+}
