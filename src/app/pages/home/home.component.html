@@ -11,22 +11,27 @@
 	</div>
 
 	<!-- Create Task-->
-	<div fxFlex>
+	<div fxLayout="column" class="task-input-container">
 		<!-- Server messages-->
 		<div class="task-container"></div>
 
-		<div class="task-container mat-elevation-z4" fxLayout="column">
+		<div class="input-container mat-elevation-z4 w-50" fxLayout="column">
 			<mat-card>
 				<form>
 					<mat-card-content>
-						<mat-form-field appearance="fill" class="w-100">
+						<mat-form-field appearance="fill" class="w-50">
 							<input matInput placeholder="Enter a task name..." />
 
 							<button type="submit" mat-icon-button matSuffix>
 								<mat-icon
 									color="primary"
 									matSuffix
-									style="width: 36px; height: 36px; font-size: 36px"
+									style="
+										width: 36px;
+										height: 36px;
+										font-size: 36px;
+										margin-left: 10px;
+									"
 								>
 									add_circle
 								</mat-icon>
@@ -52,6 +57,17 @@
 				<div fxFlex>
 					<mat-card class="mat-elevation-z0">
 						<mat-card-title>ToDo</mat-card-title>
+						<mat-card-content>
+							<div fxLayout="row">
+								<div fxFlex></div>
+								<!-- Add/Delete icon here-->
+							</div>
+						</mat-card-content>
+					</mat-card>
+				</div>
+				<div fxFlex>
+					<mat-card class="mat-elevation-z0">
+						<mat-card-title>Done</mat-card-title>
 						<mat-card-content>
 							<div fxLayout="row">
 								<div fxFlex></div>

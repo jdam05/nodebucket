@@ -1,6 +1,6 @@
 <div fxLayout="column">
 	<mat-card fxFlex class="login-container">
-		<mat-card-header>
+		<mat-card-header class="header">
 			<mat-card-title class="login-title">
 				Employee Sign-in Page
 			</mat-card-title>
@@ -11,17 +11,17 @@
 			</mat-card-subtitle>
 		</mat-card-header>
 
-		<mat-card-content class="mat-elevation-Z0">
+		<mat-card-content class="login-content">
 			<p-messages [(value)]="errorMessages" [enableService]="false">
 			</p-messages>
-			<mat-card>
+			<mat-card class="input-area">
 				<form [formGroup]="loginForm" (ngSubmit)="login(); loginForm.reset()">
 					<mat-card-content>
-						<mat-form-field appearance="fill" class="w-100">
+						<mat-form-field appearance="outline" class="w-100">
 							<input
 								matInput
 								formControlName="empId"
-								placeholder="Employee ID"
+								placeholder="   Employee ID"
 							/>
 
 							<mat-error
@@ -46,12 +46,10 @@
 					<mat-card-actions>
 						<button
 							type="submit"
-							fxFlex
 							mat-raised-button
-							color="primary"
 							[disabled]="!loginForm.valid"
-							class="btn-lg"
-							style="height: 50px; font-size: 18px"
+							class="btn"
+							color="accent"
 						>
 							Log in
 						</button>

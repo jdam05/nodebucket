@@ -1,20 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Carter+One&family=Kanit:wght@300&display=swap");
+
 .login-container {
-	width: 40%;
+	width: 50%;
 	margin: 10% auto;
+	text-align: center;
+	border: solid black 2px;
+}
+
+.header {
+	justify-content: center;
+	align-items: center;
 }
 
 .login-title {
-	text-align: center;
 	font-size: 40px;
 	font-weight: lighter;
-	padding: 10px;
+	padding: 20px;
+	color: #f8a824;
+	font-family: "Abril Fatface", cursive;
+	text-shadow: 2px 7px black;
 }
 
 .login-subtitle {
-	text-align: center;
 	font-weight: lighter;
 	padding: 5px;
-	color: #d6a800;
+	color: white;
 }
 
 .mat-card {
@@ -22,21 +32,51 @@
 }
 
 .mat-card-header {
-	background-color: #4f3674;
-	padding-left: 6%;
+	background-color: #1a237e;
 	padding-top: 15px;
 	color: white;
 }
 
 .mat-card-content {
-	padding: 20px;
+	padding: 5px;
+	text-align: center;
 }
 
 .mat-card-action {
 	padding: 25px;
 }
 
-.btn-lg {
-	height: 36px;
-	width: 90rem;
+.btn {
+	height: 46px;
+	width: 28rem;
+	font-family: "Abril Fatface", cursive;
+	font-size: 18px;
+}
+
+.btn:disabled {
+	background-color: lightgray;
+	color: black;
+	font-family: "Abril Fatface", cursive;
+}
+
+.login-content {
+	background-color: #283593;
+	text-align: center;
+}
+
+.input-area {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	background-color: #283593;
+}
+
+input {
+	background-color: white;
+	height: 60px;
+	border-radius: 5px;
+	font-family: "Abril Fatface", cursive;
+	font-size: 18px;
+	padding-left: 10px;
 }
