@@ -675,3 +675,14 @@
     { text: 'Exercise', _id: new ObjectId("6432377babe3c9fbf1400f45") }
   ]
 }
+[4/9/2023, 2:50:45 AM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  done: [],
+  todo: [
+    { text: 'eat', _id: new ObjectId("642e23ebd9044a89e1ac82dc") },
+    { text: 'Walk', _id: new ObjectId("642e246dd9044a89e1ac82ea") },
+    { text: 'string', _id: new ObjectId("643235d192c3f012740f39bc") },
+    { text: 'Exercise', _id: new ObjectId("6432377babe3c9fbf1400f45") }
+  ]
+}
