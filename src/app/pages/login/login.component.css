@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Carter+One&family=Kanit:wght@300&display=swap");
+
+.login-container {
+	width: 50%;
+	margin: 10% auto;
+	text-align: center;
+	border: solid black 2px;
+}
+
+.header {
+	justify-content: center;
+	align-items: center;
+}
+
+.login-title {
+	font-size: 40px;
+	font-weight: lighter;
+	padding: 20px;
+	color: #f8a824;
+	font-family: "Abril Fatface", cursive;
+	text-shadow: 2px 7px black;
+}
+
+.login-subtitle {
+	font-weight: lighter;
+	padding: 5px;
+	color: white;
+}
+
+.mat-card {
+	padding: 0;
+}
+
+.mat-card-header {
+	background-color: #1a237e;
+	padding-top: 15px;
+	color: white;
+}
+
+.mat-card-content {
+	padding: 5px;
+	text-align: center;
+}
+
+.mat-card-action {
+	padding: 25px;
+}
+
+.btn {
+	height: 46px;
+	width: 28rem;
+	font-family: "Abril Fatface", cursive;
+	font-size: 18px;
+}
+
+.btn:disabled {
+	background-color: lightgray;
+	color: black;
+	font-family: "Abril Fatface", cursive;
+}
+
+.login-content {
+	background-color: #283593;
+	text-align: center;
+}
+
+.input-area {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	background-color: #283593;
+}
+
+input {
+	background-color: white;
+	height: 60px;
+	border-radius: 5px;
+	font-family: "Abril Fatface", cursive;
+	font-size: 18px;
+	padding-left: 10px;
+}

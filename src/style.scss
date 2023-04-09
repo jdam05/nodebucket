@@ -1,0 +1,20 @@
+@import "./theme";
+
+html,
+body {
+	height: 100%;
+}
+body {
+	margin: 0;
+	font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.blue {
+	background-color: #1a55a4;
+	height: 100%;
+}
+.light-blue {
+	background-color: #3c6fb2;
+}
+.yellow {
+	color: #fbbf2c;
+}

@@ -1,39 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Carter+One&family=Kanit:wght@300&display=swap");
 .logo {
-  margin-left: 75px;
-  font-size: 24px;
-  font-weight: lighter;;
+	font-family: "Abril Fatface", cursive;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+.logo-items {
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
 }
 
 .navbar-container {
-  padding: 5px;
+	padding: 5px;
+	display: flex;
+	flex-direction: row;
+	gap: 30rem;
+}
+
+.nav-links {
+	display: flex;
+	flex-direction: row;
+	gap: 10rem;
+	float: right;
 }
 
 .navbar-link {
-  font-size: 24px;
-  font-weight: lighter;
+	font-family: "Abril Fatface", cursive;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 .main-content {
-  padding-left: 30px;
+	padding-bottom: 50px;
+	background-color: #1a237e;
+	text-align: center;
+	min-height: 100%;
 }
 
 .footer {
-  bottom: 0;
-  position: absolute;
-  width: 100%;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
 }
 
 .footer-content {
-  font-size: 16px;
-  font-weight: lighter;
-  padding-left: 100px;
-  letter-spacing: 3px;
+	font-size: 16px;
+	font-weight: lighter;
+	padding-left: 100px;
+	letter-spacing: 3px;
 }
 
 .bu-link {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .bu-link:hover {
-  text-decoration: underline;
+	text-decoration: underline;
+}
+
+img {
+	margin: 10px 10px 10px 0;
+	height: 60px;
 }

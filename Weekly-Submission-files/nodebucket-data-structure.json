@@ -1,0 +1,38 @@
+{
+	"EMPLOYEE": [
+		{
+			"empId": 1007,
+			"firstName": "James",
+			"lastName": "Thomson",
+			"todo": [
+				{
+					"taskId": 2,
+					"taskDescription": "Arrange Garage"
+				}
+			],
+			"done": [
+				{
+					"taskId": 1,
+					"taskDescription": "Food Shopping"
+				}
+			]
+		},
+		{
+			"empId": 1012,
+			"firstName": "Dave",
+			"lastName": "Chappelle",
+			"todo": [
+				{
+					"taskId": 4,
+					"taskDescription": "Paint Patio"
+				}
+			],
+			"done": [
+				{
+					"taskId": 1,
+					"taskDescription": "Walk Dogs"
+				}
+			]
+		}
+	]
+}
