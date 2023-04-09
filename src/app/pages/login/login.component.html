@@ -14,10 +14,10 @@
 		<mat-card-content class="login-content">
 			<p-messages [(value)]="errorMessages" [enableService]="false">
 			</p-messages>
-			<mat-card class="input-area">
+			<mat-card class="input-area mat-elevation-z0">
 				<form [formGroup]="loginForm" (ngSubmit)="login(); loginForm.reset()">
 					<mat-card-content>
-						<mat-form-field appearance="outline" class="w-100">
+						<mat-form-field appearance="standard" class="w-100"  >
 							<input
 								matInput
 								formControlName="empId"

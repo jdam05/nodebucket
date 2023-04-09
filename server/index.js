@@ -3,6 +3,8 @@ const path = require("path");
 const mongoose = require("mongoose");
 const createError = require("http-errors");
 const EmployeeRoute = require("./routes/employee-route");
+const swaggerUi = require("swagger-ui-express");
+const swaggerJsdoc = require("swagger-jsdoc");
 
 const app = express();
 
@@ -25,6 +27,24 @@ mongoose
 	.catch((err) => {
 		console.log("MongoDB Error: " + err.message);
 	});
+
+// Swagger API documentation options.
+const options = {
+	definition: {
+		openapi: "3.0.0",
+		info: {
+			title: "NodeBucket API's",
+			version: "1.0.0",
+		},
+	},
+	apis: ["./server/routes/*.js"],
+};
+
+// Swagger specific options
+const openapiSpecification = swaggerJsdoc(options);
+
+// Swagger UI
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(openapiSpecification));
 
 app.use("/api/employees", EmployeeRoute);
 

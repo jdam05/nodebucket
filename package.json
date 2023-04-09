@@ -31,6 +31,9 @@
     "primeicons": "^6.0.0",
     "primeng": "^14.0.1",
     "rxjs": "~7.5.0",
+    "swagger": "^0.7.5",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.2",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
