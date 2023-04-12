@@ -27,6 +27,7 @@ const taskSchema = {
 	type: "object",
 	properties: {
 		text: { type: "string" },
+		_id: { type: "string" },
 	},
 	required: ["text"],
 	additionalProperties: false,
@@ -231,7 +232,7 @@ router.get("/:empId/tasks", async (req, res, next) => {
 
 router.post("/:empId/tasks", async (req, res, next) => {
 	let empId = req.params.empId;
-	
+
 	const err = checkNum(empId);
 
 	if (err === false) {
@@ -286,7 +287,7 @@ router.post("/:empId/tasks", async (req, res, next) => {
 /**
  * updateTasks
  * @openapi
- * /api/employees/{id}/tasks:
+ * /api/employees/{empId}/tasks:
  *   put:
  *     tags:
  *       - Employees
@@ -335,7 +336,7 @@ router.post("/:empId/tasks", async (req, res, next) => {
 
 router.put("/:empId/tasks", async (req, res, next) => {
 	let empId = req.params.empId;
-	console.log("hello");
+	console.log(empId);
 	empId = parseInt(empId, 10);
 
 	if (isNaN(empId)) {

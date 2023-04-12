@@ -20,7 +20,7 @@
 }
 
 .task-container {
-	width: 60%;
+	width: 70%;
 	margin: auto;
 	background-color: #222f5b;
 	padding: 10px;
@@ -38,14 +38,24 @@
 	background-color: #47525e;
 	height: 60px;
 	font-family: "Abril Fatface", cursive;
-	font-size: 20px;
 	color: white;
 	border-radius: 5px;
 }
 
 .task-list-container {
 	background-color: transparent;
-	border: solid black;
+}
+.task-list {
+	border: solid #47525e;
+	border-radius: 5px;
+	min-height: 80px;
+	background-color: transparent;
+	padding: 10px;
+}
+
+.task-name {
+	margin-left: 25%;
+	font-size: 20px;
 }
 
 .input-container {

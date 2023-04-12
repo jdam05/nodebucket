@@ -94,3 +94,54 @@
 [4/12/2023, 3:23:48 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
 [4/12/2023, 3:23:48 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
 [4/12/2023, 3:36:05 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/12/2023, 5:44:57 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/12/2023, 5:45:08 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/12/2023, 5:47:06 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/12/2023, 5:47:09 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/12/2023, 5:49:58 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/12/2023, 5:51:34 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/12/2023, 5:58:44 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/12/2023, 5:58:46 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/12/2023, 5:58:52 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/12/2023, 5:58:56 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/12/2023, 5:59:00 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/12/2023, 5:59:03 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/12/2023, 6:04:10 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/12/2023, 6:05:12 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/12/2023, 6:30:20 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 6:31:03 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 6:35:02 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 6:35:40 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 6:36:39 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 6:37:28 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 6:38:02 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 6:40:25 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 6:41:51 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 6:44:20 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/12/2023, 6:46:34 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/12/2023, 6:46:35 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/12/2023, 6:50:24 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 6:52:41 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 6:53:07 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 6:53:37 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 6:53:39 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 6:54:08 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 6:54:08 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 6:54:08 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 6:54:36 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 6:57:21 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 7:02:33 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 7:03:55 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 7:04:56 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 7:05:37 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 7:08:05 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 7:12:02 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 7:12:35 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 7:15:44 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 7:17:37 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 7:18:15 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 7:19:18 AM] server	 employee-route.js - Input must be a number: NaN
+[4/12/2023, 7:23:20 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/12/2023, 7:25:51 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/12/2023, 7:27:20 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/12/2023, 7:31:32 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
