@@ -1,3 +1,8 @@
+<div>
+	<p-toast></p-toast>
+	<p-confirmDialog [style]="{ width: '35vw' }"></p-confirmDialog>
+</div>
+
 <div fxLayout="column">
 	<!-- navigation -->
 	<nav fxFlex>
@@ -11,7 +16,12 @@
 				</div>
 				<div class="nav-links">
 					<button class="navbar-link" routerLink="/" mat-button>Home</button>
-					<button class="navbar-link" mat-button>About</button>
+					<button class="navbar-link" routerLink="/about" mat-button>
+						About
+					</button>
+					<button class="navbar-link" routerLink="/contact" mat-button>
+						Contact
+					</button>
 				</div>
 			</div>
 			<div fxFlex></div>
@@ -48,11 +58,14 @@
 	<!-- footer -->
 	<div fxFlex>
 		<footer class="footer">
-			<mat-toolbar class="footer-content">
+			<mat-toolbar class="footer-content" color="accent">
 				<p>
 					&copy; {{ year | date : "yyyy" }} - nodebucket -
-					<a href="https://www.bellevue.edu/" class="bu-link" target="_blank"
-						>Jamal Damir</a
+					<a href="https://github.com/jdam05" class="bu-link" target="_blank">
+						- Jamal Damir</a
+					>
+					<a href="https://www.bellevue.edu/" class="bu-link" target="_blank">
+						- Bellevue University</a
 					>
 				</p>
 			</mat-toolbar>

@@ -26,12 +26,15 @@ import { MatIconModule } from "@angular/material/icon";
 import { MatInputModule } from "@angular/material/input";
 import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatDialogModule } from "@angular/material/dialog";
+import { DragDropModule } from "@angular/cdk/drag-drop";
 
 // primeNG imports
 import { MessageModule } from "primeng/message";
 import { MessagesModule } from "primeng/messages";
 import { ConfirmDialogComponent } from "./shared/confirm-dialog/confirm-dialog.component";
-import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { NotFoundComponent } from "./pages/not-found/not-found.component";
+import { ConfirmDialogModule } from "primeng/confirmdialog";
+import { ToastModule } from "primeng/toast";
 
 @NgModule({
 	declarations: [
@@ -43,7 +46,7 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
 		ConfirmDialogComponent,
 		ContactComponent,
 		AboutComponent,
-  NotFoundComponent,
+		NotFoundComponent,
 	],
 	imports: [
 		BrowserModule,
@@ -64,6 +67,10 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
 		MessageModule,
 		MessagesModule,
 		MatDialogModule,
+		ConfirmDialogModule,
+		ToastModule,
+		MatCardModule,
+		DragDropModule,
 	],
 	providers: [],
 	bootstrap: [AppComponent],

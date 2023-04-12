@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Carter+One&family=Kanit:wght@300&display=swap");
+
+h1 {
+	margin-top: 100px;
+	font-family: "Abril Fatface", cursive;
+	font-size: 40px;
+	color: #CF9740;
+}
+.contact-items {
+	font-family: "Abril Fatface", cursive;
+	display: flex;
+	justify-content: center;
+	gap: 500px;
+	margin-top: 100px;
+	background-color: transparent;
+	color: #CF9740;
+	
+}
+
+p {
+	font-size: 30px;
+	line-height: 3rem;
+
+}
+
+.material-icons{
+	font-size: 50px;
+	padding-bottom: 50px;
+}

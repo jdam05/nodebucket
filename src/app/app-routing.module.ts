@@ -22,10 +22,12 @@ const routes: Routes = [
 			{
 				path: "about",
 				component: AboutComponent,
+				canActivate: [AuthGuard],
 			},
 			{
 				path: "contact",
 				component: ContactComponent,
+				canActivate: [AuthGuard],
 			},
 		],
 	},

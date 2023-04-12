@@ -20,13 +20,13 @@ export class TaskService {
 	}
 
 	updateTask(empId: number, todo: Item[], done: Item[]): Observable<any> {
-		return this.http.put("http://nodebucket.com/api/employees/${empId}/tasks", {
+		return this.http.put(`/api/employees/${empId}/tasks`, {
 			todo,
 			done,
 		});
 	}
 
 	deleteTask(empId: number, taskId: string): Observable<any> {
-		return this.http.delete("/api/employees/${empId}/tasks/${taskId}");
+		return this.http.delete(`/api/employees/${empId}/tasks/${taskId}`);
 	}
 }

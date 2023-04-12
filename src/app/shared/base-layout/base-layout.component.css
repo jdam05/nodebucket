@@ -15,7 +15,7 @@
 	padding: 5px;
 	display: flex;
 	flex-direction: row;
-	gap: 30rem;
+	gap: 20rem;
 }
 
 .nav-links {
@@ -33,14 +33,14 @@
 
 .main-content {
 	padding-bottom: 50px;
-	background-color: #1a237e;
+	background-color: #0e1a40;
 	text-align: center;
-	min-height: 100%;
+	min-height: 1800px;
 }
 
 .footer {
 	bottom: 0;
-	position: absolute;
+	position: fixed;
 	width: 100%;
 }
 
@@ -49,6 +49,7 @@
 	font-weight: lighter;
 	padding-left: 100px;
 	letter-spacing: 3px;
+	justify-content: center;
 }
 
 .bu-link {
