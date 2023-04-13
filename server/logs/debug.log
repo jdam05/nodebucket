@@ -34424,3 +34424,35 @@
     { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") }
   ]
 }
+[4/12/2023, 7:00:05 PM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  done: [],
+  todo: [
+    {
+      text: 'Watch a movie',
+      _id: new ObjectId("64372cfea91d8aee54012b47")
+    },
+    {
+      text: 'Walk Dogs',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    },
+    { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") }
+  ]
+}
+[4/12/2023, 7:01:19 PM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  done: [],
+  todo: [
+    {
+      text: 'Watch a movie',
+      _id: new ObjectId("64372cfea91d8aee54012b47")
+    },
+    {
+      text: 'Walk Dogs',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    },
+    { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") }
+  ]
+}
