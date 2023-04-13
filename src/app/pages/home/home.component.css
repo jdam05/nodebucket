@@ -42,6 +42,10 @@
 	border-radius: 5px;
 }
 
+.task-items:hover {
+	cursor: grab;
+}
+
 .task-list-container {
 	background-color: transparent;
 }
