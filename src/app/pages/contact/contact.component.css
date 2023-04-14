@@ -4,26 +4,41 @@ h1 {
 	margin-top: 100px;
 	font-family: "Abril Fatface", cursive;
 	font-size: 40px;
-	color: #CF9740;
+	color: #cf9740;
 }
-.contact-items {
-	font-family: "Abril Fatface", cursive;
+
+.contact-main {
 	display: flex;
 	justify-content: center;
-	gap: 500px;
+}
+.contact-container {
+	font-family: "Abril Fatface", cursive;
 	margin-top: 100px;
 	background-color: transparent;
-	color: #CF9740;
-	
+	color: #cf9740;
+	width: 90%;
+}
+
+.contact-items {
+	display: flex;
+	flex-direction: row;
+	width: 90%;
+	gap: 20%;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
 }
 
 p {
 	font-size: 30px;
 	line-height: 3rem;
-
+	min-width: 400px;
+	border: 5px solid #47525e;
+	border-radius: 10px;
+	padding: 20px;
 }
 
-.material-icons{
+.material-icons {
 	font-size: 50px;
 	padding-bottom: 50px;
 }

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Carter+One&family=Fira+Mono:wght@500&family=Kanit:wght@300&display=swap");
+
+.not-found-container {
+	margin-top: 60px;
+	text-align: center;
+}
+
+h1 {
+	padding-top: 200px;
+	transform: rotate(-20deg);
+	font-family: "Abril Fatface", cursive;
+	font-size: 200px;
+	color: #4e5d8d;
+	padding-bottom: 100px;
+}
+
+h2 {
+	font-family: "Abril Fatface", cursive;
+	margin-top: 100px;
+	color: #c3c9dd;
+}
+
+h3 {
+	font-family: "Abril Fatface", cursive;
+	color: #c3c9dd;
+}

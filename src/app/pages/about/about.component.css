@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Carter+One&family=Fira+Mono:wght@500&family=Kanit:wght@300&display=swap");
+.about-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 60px;
+}
+
+.about-title {
+	margin-bottom: 50px;
+	font-family: "Abril Fatface", cursive;
+	font-size: 40px;
+	color: #cf9740;
+}
+
+.about-main {
+	width: 90%;
+	margin: auto;
+	text-align: justify;
+	padding: 2% 4%;
+	background-color: #222f5b;
+}
+
+.about-main p {
+	font-family: "Fira Mono", monospace;
+	font-size: 24px;
+	color: #cdd7e0;
+	line-height: 2.5rem;
+	border: 5px solid #47525e;
+	border-radius: 10px;
+	padding: 2%;
+}

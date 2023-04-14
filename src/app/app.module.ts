@@ -32,9 +32,9 @@ import { DragDropModule } from "@angular/cdk/drag-drop";
 import { MessageModule } from "primeng/message";
 import { MessagesModule } from "primeng/messages";
 import { ConfirmDialogComponent } from "./shared/confirm-dialog/confirm-dialog.component";
-import { NotFoundComponent } from "./pages/not-found/not-found.component";
 import { ConfirmDialogModule } from "primeng/confirmdialog";
 import { ToastModule } from "primeng/toast";
+import { NotFoundComponent } from "./pages/not-found/not-found.component";
 
 @NgModule({
 	declarations: [

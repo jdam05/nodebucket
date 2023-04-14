@@ -1,1 +1,27 @@
-<p>not-found works!</p>
+<!--
+    Title: not-found.component.html.
+    Author: Jamal Eddine Damir
+    Date: April 14, 2023
+    Description: not-found.component.html file to be displayed for 404 Error
+    Sources:
+            * Source code from class GitHub Repository
+            * W3Schools.com
+            * Instructor provided assignment specific instructions
+-->
+<div fxLayout="column" class="not-found-container">
+	<h1>404 Error</h1>
+	<br />
+	<h2>You seem a little lost. The page you are looking for cannot be found</h2>
+	<h3>
+		Go back to the : &nbsp; &nbsp; &nbsp; &nbsp;
+		<!-- Redirecting user to homepage-->
+		<button
+			mat-raised-button
+			color="accent"
+			style="color: black"
+			routerLink="/"
+		>
+			homepage
+		</button>
+	</h3>
+</div>
