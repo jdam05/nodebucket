@@ -1,3 +1,14 @@
+/**
+ * Title: app-routing-module.ts
+ * Author: Jamal Eddine Damir
+ * Date: April 14, 2023
+ * Description: Routing module for nodebucket
+ * Sources:
+ * Source code from class GitHub Repository
+ * Instructor provided assignment specific instructions
+ */
+
+// Import statements
 import { NgModule, Component } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 import { BaseLayoutComponent } from "./shared/base-layout/base-layout.component";
@@ -9,6 +20,7 @@ import { LoginComponent } from "./pages/login/login.component";
 import { NotFoundComponent } from "./pages/not-found/not-found.component";
 import { AuthGuard } from "./auth.guard";
 
+// Defining routes
 const routes: Routes = [
 	{
 		path: "",
@@ -53,6 +65,7 @@ const routes: Routes = [
 	},
 ];
 
+// Configuring router module
 @NgModule({
 	imports: [
 		RouterModule.forRoot(routes, {
@@ -64,4 +77,6 @@ const routes: Routes = [
 	],
 	exports: [RouterModule],
 })
+
+// Exporting module
 export class AppRoutingModule {}

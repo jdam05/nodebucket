@@ -26,6 +26,16 @@
 	padding: 10px;
 	border-radius: 10px;
 }
+/*
+ * Title: home.component.css
+ * Date: April 14, 2023
+ * Author: Jamal Eddine Damir
+ * Description: Nodebucket home component styles
+ * Sources:
+ * Source code from class GitHub Repository
+ * Instructor provided assignment specific instructions
+ */
+
 
 .task-title {
 	color: #cf9740;

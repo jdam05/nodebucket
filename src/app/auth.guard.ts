@@ -1,3 +1,14 @@
+/**
+ * Title: auth.guard.ts
+ * Author: Jamal Eddine Damir
+ * Date: April 14, 2023
+ * Description: Auth guard for nodebucket
+ * Sources:
+ * Source code from class GitHub Repository
+ * Instructor provided assignment specific instructions
+ */
+
+// Import statements
 import { Injectable } from "@angular/core";
 import {
 	ActivatedRouteSnapshot,

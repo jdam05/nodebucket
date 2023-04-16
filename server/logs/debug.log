@@ -36939,3 +36939,231 @@
     { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") }
   ]
 }
+[4/14/2023, 2:13:20 AM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  done: [
+    {
+      text: 'Watch a movie',
+      _id: new ObjectId("64372cfea91d8aee54012b47")
+    }
+  ],
+  todo: [
+    {
+      text: 'Walk Dogs',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    },
+    { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") }
+  ]
+}
+[4/14/2023, 2:13:47 AM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  done: [
+    {
+      text: 'Watch a movie',
+      _id: new ObjectId("64372cfea91d8aee54012b47")
+    }
+  ],
+  todo: [
+    {
+      text: 'Walk Dogs',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    },
+    { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") }
+  ]
+}
+[4/14/2023, 2:13:48 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Walk Dogs',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    },
+    { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") }
+  ],
+  done: [
+    {
+      text: 'Watch a movie',
+      _id: new ObjectId("64372cfea91d8aee54012b47")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 84
+}
+[4/14/2023, 2:13:50 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") }
+  ],
+  done: [
+    {
+      text: 'Walk Dogs',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    },
+    {
+      text: 'Watch a movie',
+      _id: new ObjectId("64372cfea91d8aee54012b47")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 85
+}
+[4/14/2023, 2:13:51 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") }
+  ],
+  done: [
+    {
+      text: 'Watch a movie',
+      _id: new ObjectId("64372cfea91d8aee54012b47")
+    },
+    {
+      text: 'Walk Dogs',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 86
+}
+[4/14/2023, 2:13:52 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Walk Dogs',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    },
+    { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") }
+  ],
+  done: [
+    {
+      text: 'Watch a movie',
+      _id: new ObjectId("64372cfea91d8aee54012b47")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 87
+}
+[4/14/2023, 2:15:39 AM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  done: [
+    {
+      text: 'Watch a movie',
+      _id: new ObjectId("64372cfea91d8aee54012b47")
+    }
+  ],
+  todo: [
+    {
+      text: 'Walk Dogs',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    },
+    { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") }
+  ]
+}
+[4/16/2023, 2:55:17 AM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  done: [
+    {
+      text: 'Watch a movie',
+      _id: new ObjectId("64372cfea91d8aee54012b47")
+    }
+  ],
+  todo: [
+    {
+      text: 'Walk Dogs',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    },
+    { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") }
+  ]
+}
+[4/16/2023, 2:55:20 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Walk Dogs',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") },
+    {
+      text: 'Watch a movie',
+      _id: new ObjectId("64372cfea91d8aee54012b47")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 88
+}
+[4/16/2023, 2:55:21 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Watch a movie',
+      _id: new ObjectId("64372cfea91d8aee54012b47")
+    },
+    {
+      text: 'Walk Dogs',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 89
+}
+[4/16/2023, 2:55:22 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Walk Dogs',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Watch a movie',
+      _id: new ObjectId("64372cfea91d8aee54012b47")
+    },
+    { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 90
+}
+[4/16/2023, 2:55:24 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") },
+    {
+      text: 'Walk Dogs',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Watch a movie',
+      _id: new ObjectId("64372cfea91d8aee54012b47")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 91
+}

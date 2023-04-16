@@ -1,3 +1,14 @@
+/**
+ * Title: app.module.ts
+ * Author: Jamal Eddine Damir
+ * Date: April 14, 2023
+ * Description: App module for nodebucket
+ * Sources:
+ * Source code from class GitHub Repository
+ * Instructor provided assignment specific instructions
+ */
+
+// Import statements
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 
@@ -36,6 +47,7 @@ import { ConfirmDialogModule } from "primeng/confirmdialog";
 import { ToastModule } from "primeng/toast";
 import { NotFoundComponent } from "./pages/not-found/not-found.component";
 
+// Declaring list of components
 @NgModule({
 	declarations: [
 		AppComponent,
@@ -75,4 +87,6 @@ import { NotFoundComponent } from "./pages/not-found/not-found.component";
 	providers: [],
 	bootstrap: [AppComponent],
 })
+
+// Exporting module
 export class AppModule {}

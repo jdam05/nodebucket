@@ -1,3 +1,15 @@
+<!--
+    Title: base-layout.component.html.
+    Author: Jamal Eddine Damir
+    Date: April 14, 2023
+    Description: base-layout.component.html file
+    Sources:
+            * Source code from class GitHub Repository
+            * W3Schools.com
+            * Instructor provided assignment specific instructions
+-->
+
+<!-- Logout Confirmation-->
 <div>
 	<p-toast></p-toast>
 	<p-confirmDialog [style]="{ width: '35vw' }"></p-confirmDialog>
@@ -9,7 +21,6 @@
 		<mat-toolbar color="accent">
 			<!-- navbar container -->
 			<div class="navbar-container">
-				<!-- logo -->
 				<div class="logo-items">
 					<img src="assets/ravenclaw.png" alt="Ravenclaw Emblem" />
 					<button class="logo" routerLink="/" mat-button>nodebucket</button>
@@ -26,6 +37,7 @@
 			</div>
 			<div fxFlex></div>
 
+			<!-- Logout section-->
 			<div>
 				<button
 					mat-icon-button

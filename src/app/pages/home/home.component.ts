@@ -1,7 +1,17 @@
+/**
+ * Title: home.component.ts
+ * Author: Jamal Eddine Damir
+ * Date: April 14, 2023
+ * Description: home component for nodebucket
+ * Sources:
+ * Source code from class GitHub Repository
+ * Instructor provided assignment specific instructions
+ */
+
+// Import Statements
 import { Component, OnInit } from "@angular/core";
 import { CookieService } from "ngx-cookie-service";
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
-
 import { Message } from "primeng/api";
 import { Employee } from "src/app/shared/models/employee.interface";
 import { Item } from "src/app/shared/models/item.interface";
@@ -14,12 +24,16 @@ import {
 	transferArrayItem,
 } from "@angular/cdk/drag-drop";
 
+// Defining component metadata
 @Component({
 	selector: "app-home",
 	templateUrl: "./home.component.html",
 	styleUrls: ["./home.component.css"],
 })
+
+// Component class definition
 export class HomeComponent implements OnInit {
+	// Class properties
 	serverMessages: Message[] = [];
 	employee: Employee;
 	todo: Item[];
@@ -28,6 +42,7 @@ export class HomeComponent implements OnInit {
 	newTaskId: string;
 	newTaskMessage: string;
 
+	// Creating taskForm FormGroup with validation
 	taskForm: FormGroup = this.fb.group({
 		task: [
 			null,
@@ -45,6 +60,7 @@ export class HomeComponent implements OnInit {
 		private fb: FormBuilder,
 		private dialog: MatDialog
 	) {
+		// Setting empId value to session_user value obtained from cookieService
 		this.empId = parseInt(this.cookieService.get("session_user"), 10);
 		this.employee = {} as Employee;
 		this.todo = [];
@@ -53,6 +69,7 @@ export class HomeComponent implements OnInit {
 		this.newTaskId = "";
 		this.newTaskMessage = "";
 
+		// Retrieving all the tasks by employee id
 		this.taskService.findAllTasks(this.empId).subscribe({
 			next: (res) => {
 				this.employee = res;
@@ -71,7 +88,6 @@ export class HomeComponent implements OnInit {
 			},
 			complete: () => {
 				this.todo = this.employee.todo;
-				//this.doing = this.employee.doing;
 				this.done = this.employee.done;
 
 				console.log("--ToDo and Done Data--");
@@ -83,10 +99,10 @@ export class HomeComponent implements OnInit {
 
 	ngOnInit(): void {}
 
-	// Create new task
 	createTask() {
 		const newTask = this.taskForm.controls["task"].value;
 
+		// Creating a new task using taskService
 		this.taskService.createTask(this.empId, newTask).subscribe({
 			next: (res) => {
 				this.newTaskId = res.data.id;
@@ -137,6 +153,7 @@ export class HomeComponent implements OnInit {
 		dialogRef.afterClosed().subscribe({
 			next: (result) => {
 				if (result === "confirm") {
+					// Deleting task using taskService
 					this.taskService.deleteTask(this.empId, taskId).subscribe({
 						next: (res) => {
 							this.todo = this.todo.filter((task) => task._id !== taskId);
@@ -181,6 +198,7 @@ export class HomeComponent implements OnInit {
 
 	// Update task
 	updateTaskList(empId: number, todo: Item[], done: Item[]) {
+		// updating task using taskService
 		this.taskService.updateTask(empId, todo, done).subscribe({
 			next: (res) => {
 				console.log(res);

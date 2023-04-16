@@ -1,3 +1,14 @@
+/*
+ * Title: not-found.component.css
+ * Date: April 14, 2023
+ * Author: Jamal Eddine Damir
+ * Description: Nodebucket not-found component styles
+ * Sources:
+ * Source code from class GitHub Repository
+ * Instructor provided assignment specific instructions
+ */
+
+/* Importing google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Carter+One&family=Fira+Mono:wght@500&family=Kanit:wght@300&display=swap");
 
 .not-found-container {

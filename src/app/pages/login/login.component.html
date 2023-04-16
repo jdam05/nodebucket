@@ -1,29 +1,43 @@
+<!--
+    Title: login.component.html.
+    Author: Jamal Eddine Damir
+    Date: April 14, 2023
+    Description: login.component.html file
+    Sources:
+            * Source code from class GitHub Repository
+            * W3Schools.com
+            * Instructor provided assignment specific instructions
+-->
+
 <div fxLayout="column">
 	<mat-card fxFlex class="login-container">
 		<mat-card-header class="header">
+			<!-- Page Title-->
 			<mat-card-title class="login-title">
 				Employee Sign-in Page
 			</mat-card-title>
 			<br />
-
+			<!-- Login Subtitle-->
 			<mat-card-subtitle class="login-subtitle">
 				You must enter a valid employee ID to continue.
 			</mat-card-subtitle>
 		</mat-card-header>
 
 		<mat-card-content class="login-content">
+			<!-- Displaying error message -->
 			<p-messages [(value)]="errorMessages" [enableService]="false">
 			</p-messages>
 			<mat-card class="input-area mat-elevation-z0">
+				<!-- Login form-->
 				<form [formGroup]="loginForm" (ngSubmit)="login(); loginForm.reset()">
 					<mat-card-content>
-						<mat-form-field appearance="standard" class="w-100"  >
+						<mat-form-field appearance="standard" class="w-100">
 							<input
 								matInput
 								formControlName="empId"
 								placeholder="   Employee ID"
 							/>
-
+							<!-- Error Handling -->
 							<mat-error
 								*ngIf="
 									loginForm.controls['empId'].hasError('required') &&
