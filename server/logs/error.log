@@ -145,3 +145,21 @@
 [4/12/2023, 7:25:51 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
 [4/12/2023, 7:27:20 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
 [4/12/2023, 7:31:32 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/17/2023, 1:00:30 AM] server	 employee-route.js - NotFoundError: Not Found
+[4/17/2023, 1:00:31 AM] server	 employee-route.js - NotFoundError: Not Found
+[4/17/2023, 1:36:50 AM] server	 employee-route.js - NotFoundError: Not Found
+[4/17/2023, 1:49:11 AM] server	 employee-route.js - NotFoundError: Not Found
+[4/17/2023, 1:49:13 AM] server	 employee-route.js - NotFoundError: Not Found
+[4/17/2023, 1:49:14 AM] server	 employee-route.js - NotFoundError: Not Found
+[4/17/2023, 1:49:14 AM] server	 employee-route.js - NotFoundError: Not Found
+[4/17/2023, 2:27:40 AM] server	 employee-route.js - NotFoundError: Not Found
+[4/17/2023, 2:27:48 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/17/2023, 2:28:39 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/17/2023, 2:29:51 AM] server	 employee-route.js - Bad Request. Unable to validate req.body schema against tasksSchema
+[4/17/2023, 3:02:49 AM] server	 employee-route.js - NotFoundError: Not Found
+[4/17/2023, 3:07:11 AM] server	 employee-route.js - NotFoundError: Not Found
+[4/17/2023, 3:24:54 AM] server	 employee-route.js - NotFoundError: Not Found
+[4/17/2023, 3:33:01 AM] server	 employee-route.js - NotFoundError: Not Found
+[4/17/2023, 3:34:30 AM] server	 employee-route.js - NotFoundError: Not Found
+[4/17/2023, 3:37:50 AM] server	 employee-route.js - TaskId not found 643ce12b8714678f7be607b8
+[4/17/2023, 3:40:57 AM] server	 employee-route.js - NotFoundError: Not Found

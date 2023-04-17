@@ -46,7 +46,6 @@ const taskSchema = {
 	type: "object",
 	properties: {
 		text: { type: "string" },
-		_id: { type: "string" },
 	},
 	required: ["text"],
 	additionalProperties: false,
@@ -391,12 +390,16 @@ router.post("/:empId/tasks", async (req, res, next) => {
  *                   properties:
  *                     text:
  *                       type: string
+ *                     _id:
+ *                       type: string
  *               done:
  *                 type: array
  *                 items:
  *                   type: object
  *                   properties:
  *                     text:
+ *                       type: string
+ *                     _id:
  *                       type: string
  *     responses:
  *       '204':
@@ -482,7 +485,7 @@ router.put("/:empId/tasks", async (req, res, next) => {
 		debugLogger({ filename: myFile, message: result });
 
 		// Sending the response with the status code to the client
-		res.status(204).send();
+		res.status(204).send("Tasks Successfully Updated");
 	} catch (err) {
 		// Passing the error object as an argument to the next function
 		next(err);

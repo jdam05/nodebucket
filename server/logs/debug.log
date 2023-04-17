@@ -37167,3 +37167,717 @@
   _id: new ObjectId("6421abea3eb479a4d926a0c3"),
   __v: 91
 }
+[4/17/2023, 12:58:33 AM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  done: [
+    {
+      text: 'Watch a movie',
+      _id: new ObjectId("64372cfea91d8aee54012b47")
+    }
+  ],
+  todo: [
+    { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") },
+    {
+      text: 'Walk Dogs',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ]
+}
+[4/17/2023, 1:00:22 AM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  done: [
+    {
+      text: 'Watch a movie',
+      _id: new ObjectId("64372cfea91d8aee54012b47")
+    }
+  ],
+  todo: [
+    { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") },
+    {
+      text: 'Walk Dogs',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ]
+}
+[4/17/2023, 1:42:28 AM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  __v: 99,
+  done: [
+    {
+      text: 'Watch a movie',
+      _id: new ObjectId("64372cfea91d8aee54012b47")
+    },
+    { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") }
+  ],
+  todo: [
+    {
+      text: 'Walk Dogs',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    },
+    {
+      text: 'Meal Prep',
+      _id: new ObjectId("643cdc435327879cb014eb83")
+    }
+  ]
+}
+[4/17/2023, 2:14:12 AM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  done: [
+    {
+      text: 'Watch a movie',
+      _id: new ObjectId("64372cfea91d8aee54012b47")
+    },
+    { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") }
+  ],
+  todo: [
+    {
+      text: 'Walk Dogs',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    },
+    {
+      text: 'Meal Prep',
+      _id: new ObjectId("643cdc435327879cb014eb83")
+    },
+    {
+      text: 'Book  Trip',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ]
+}
+[4/17/2023, 2:34:07 AM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  done: [
+    {
+      text: 'Meal Prep',
+      _id: new ObjectId("643cdc435327879cb014eb83")
+    },
+    { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") }
+  ],
+  todo: [
+    {
+      text: 'Walk Dogs',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    },
+    {
+      text: 'Watch a movie',
+      _id: new ObjectId("64372cfea91d8aee54012b47")
+    },
+    {
+      text: 'Book  Trip',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ]
+}
+[4/17/2023, 2:43:20 AM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  done: [
+    {
+      text: 'Meal Prep',
+      _id: new ObjectId("643cdc435327879cb014eb83")
+    },
+    { text: 'Exercise', _id: new ObjectId("64372cf8a91d8aee54012b42") }
+  ],
+  todo: [
+    {
+      text: 'Walk Dogs',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    },
+    {
+      text: 'Watch a movie',
+      _id: new ObjectId("64372cfea91d8aee54012b47")
+    },
+    {
+      text: 'Book  Trip',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ]
+}
+[4/17/2023, 2:44:10 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Play Golf',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Book Vacation',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 109
+}
+[4/17/2023, 2:45:23 AM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  done: [
+    {
+      text: 'Play Golf',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  todo: [
+    {
+      text: 'Book Vacation',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    },
+    {
+      text: 'Meal Prep',
+      _id: new ObjectId("643ceae88714678f7be60832")
+    },
+    {
+      text: 'Watch a Movie',
+      _id: new ObjectId("643ceae38714678f7be6082c")
+    }
+  ]
+}
+[4/17/2023, 2:46:23 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Play Soccer',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Book Trip',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 116
+}
+[4/17/2023, 2:49:09 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Play Soccer',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Book Trip',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 116
+}
+[4/17/2023, 2:49:14 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Play Soccer',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Book Trip',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 116
+}
+[4/17/2023, 2:49:36 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Play Soccer',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Book Trip',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 116
+}
+[4/17/2023, 2:50:01 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Play Tennis',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Book Vacation',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 117
+}
+[4/17/2023, 2:52:53 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Play Soccer',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Book Trip',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 118
+}
+[4/17/2023, 2:54:17 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Play Tennis',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Book Vacation',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 119
+}
+[4/17/2023, 2:55:33 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Play Tennis',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Book Vacation',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 119
+}
+[4/17/2023, 2:56:29 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Play Soccer',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Book Trip',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 120
+}
+[4/17/2023, 2:56:54 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Play Soccer',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Book Trip',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 120
+}
+[4/17/2023, 2:59:08 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Play Tennis',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Book Vacation',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 121
+}
+[4/17/2023, 2:59:59 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Play Soccer',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Book Trip',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 122
+}
+[4/17/2023, 3:00:51 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Play Soccer',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Book Trip',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 122
+}
+[4/17/2023, 3:07:19 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Play Soccer',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Book Trip',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 122
+}
+[4/17/2023, 3:12:42 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Play Tennis',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Book Vacation',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 123
+}
+[4/17/2023, 3:14:30 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Play Tennis',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Book Vacation',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 123
+}
+[4/17/2023, 3:16:15 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Play Tennis',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Book Vacation',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 123
+}
+[4/17/2023, 3:16:36 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Play Tennis',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Book Vacation',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 123
+}
+[4/17/2023, 3:17:26 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Play Tennis',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Book Vacation',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 123
+}
+[4/17/2023, 3:23:04 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Play Tennis',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ],
+  done: [
+    {
+      text: 'Book Vacation',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 123
+}
+[4/17/2023, 3:30:16 AM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  done: [
+    {
+      text: 'Book Vacation',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  todo: [
+    {
+      text: 'Play Tennis',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ]
+}
+[4/17/2023, 3:34:04 AM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  done: [
+    {
+      text: 'Book Vacation',
+      _id: new ObjectId("643ce12b8714678f7be607b8")
+    }
+  ],
+  todo: [
+    {
+      text: 'Play Tennis',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ]
+}
+[4/17/2023, 3:34:41 AM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  __v: 126,
+  done: [],
+  todo: [
+    {
+      text: 'Play Tennis',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ]
+}
+[4/17/2023, 3:38:36 AM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  done: [],
+  todo: [
+    {
+      text: 'Play Tennis',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    },
+    {
+      text: 'Book Vacation',
+      _id: new ObjectId("643cf7618714678f7be60890")
+    }
+  ]
+}
+[4/17/2023, 3:38:56 AM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  __v: 128,
+  done: [],
+  todo: [
+    {
+      text: 'Play Tennis',
+      _id: new ObjectId("64372631a91d8aee54012a8e")
+    }
+  ]
+}
+[4/17/2023, 4:04:06 AM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  done: [],
+  todo: []
+}
+[4/17/2023, 4:04:22 AM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  __v: 130,
+  done: [],
+  todo: [
+    {
+      text: 'Play Golf',
+      _id: new ObjectId("643cfd86031816ee3414228e")
+    }
+  ]
+}
+[4/17/2023, 4:04:30 AM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  __v: 131,
+  done: [],
+  todo: [
+    {
+      text: 'Play Golf',
+      _id: new ObjectId("643cfd86031816ee3414228e")
+    },
+    {
+      text: 'Book Vacation',
+      _id: new ObjectId("643cfd8e031816ee34142292")
+    }
+  ]
+}
+[4/17/2023, 4:04:40 AM] server	 employee-route.js - {
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  __v: 132,
+  done: [],
+  todo: [
+    {
+      text: 'Play Golf',
+      _id: new ObjectId("643cfd86031816ee3414228e")
+    },
+    {
+      text: 'Book Vacation',
+      _id: new ObjectId("643cfd8e031816ee34142292")
+    },
+    {
+      text: 'Meal Prep',
+      _id: new ObjectId("643cfd98031816ee34142297")
+    }
+  ]
+}
+[4/17/2023, 4:04:43 AM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Bob',
+  lastName: 'Marley',
+  todo: [
+    {
+      text: 'Book Vacation',
+      _id: new ObjectId("643cfd8e031816ee34142292")
+    },
+    {
+      text: 'Meal Prep',
+      _id: new ObjectId("643cfd98031816ee34142297")
+    }
+  ],
+  done: [
+    {
+      text: 'Play Golf',
+      _id: new ObjectId("643cfd86031816ee3414228e")
+    }
+  ],
+  _id: new ObjectId("6421abea3eb479a4d926a0c3"),
+  __v: 133
+}
